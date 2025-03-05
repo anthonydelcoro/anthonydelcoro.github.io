@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 05 Mar 2025 00:11:04 at https://www.tomscott.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.tomscott.com/ -O1 "C:\Users\delco\Desktop\Website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:11:05	Warning: 	Note: due to https://www.tomscott.com remote robots.txt rules, links beginning with these path will be forbidden: /b3ta/, /temp/, /mailinglist/, /tefl/, /essays/ (see in the options to disable this)
+00:11:10	Warning: 	File not parsed, looks like binary: https://www.tomscott.com/img/lateral.webp
+00:11:11	Warning: 	File not parsed, looks like binary: https://www.tomscott.com/img/newsletter.webp
+00:11:11	Warning: 	File not parsed, looks like binary: https://www.tomscott.com/img/techdif.webp
+00:11:12	Warning: 	File not parsed, looks like binary: https://www.tomscott.com/img/zerog.webp
+00:11:13	Warning: 	File not parsed, looks like binary: https://www.tomscott.com/img/plus.webp
+00:13:07	Error: 	"Not Found" (404) at link https://www.tomscott.com/newsletter/${randomLinkData.date}/ (from https://www.tomscott.com/newsletter/)
+00:13:07	Warning: 	Found for https://www.tomscott.com/lastcall/
+00:13:07	Warning: 	File has moved from https://www.tomscott.com/lastcall/ to https://docs.google.com/forms/d/e/1FAIpQLSdv6oXFAY1L79id5AJ-W9nNndqaMIO5T0a-xnY3jrNm-A8RSQ/viewform
+00:13:08	Error: 	"Not Found" (404) at link https://www.tomscott.com/help/ (from https://www.tomscott.com/newsletter/2022-11-07/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 4 seconds : 231 links scanned, 227 files written (8130078 bytes overall) [3769490 bytes received at 30399 bytes/sec], 7784329 bytes transferred using HTTP compression in 220 files, ratio 42%, 39.0 requests per connection
+(2 errors, 8 warnings, 0 messages)
