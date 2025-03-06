@@ -13,184 +13,184 @@
     <meta name="author" content="Anthony Del Coro">
     <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgAQMAAADYVuV7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAADUExURUaCtBbUQfQAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAASSURBVDjLY2AYBaNgFIyC4QkABOAAAdL37nQAAAAASUVORK5CYII=" type="image/png">
      
-    <style>
+  <style>
 
-*, *::before, *::after { box-sizing: border-box; }
-* { margin: 0; }
-h1, div { margin: 0; padding: 0; }
+  *, *::before, *::after { box-sizing: border-box; }
+  * { margin: 0; }
+  h1, div { margin: 0; padding: 0; }
 
-body {
+  body {
   font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 160%;
   background-color: #fff;
   margin: 0; padding: 0;
   color: #333;
   overflow-y: scroll; 
-}
+  }
 
-a {
+  a {
   color: #4682B4;
   text-decoration: underline dotted;
   text-underline-position: under;
-}
+  }
 
-p, ul {
+  p, ul {
   margin-bottom: 0.5em;
-}
+  }
 
-p + ul { margin-top: 0.75em; }
+  p + ul { margin-top: 0.75em; }
 
-div p:last-of-type { margin-bottom: 0; }
+  div p:last-of-type { margin-bottom: 0; }
 
-input, button, textarea, select {
+  input, button, textarea, select {
   font: inherit;
-}
-input[type="submit"] {
+  }
+  input[type="submit"] {
   color: #333;
-}
+  }
 
-.container {
+  .container {
   max-width: 960px; margin: 10px auto 100px; padding: 1em;
-}
+  }
 
-header {
+  header {
   border-bottom: 5px dotted #4682B4;
   text-align: center;
   padding: 2em 0;
   color: #666;
   letter-spacing: 1px;
-}
+  }
 
-header p { padding: 0.5em 0; }
+  header p { padding: 0.5em 0; }
 
-.logo {
+  .logo {
   width: 478px;
   height: 111px;
-}
+  }
 
-main {
+  main {
   margin: 2em auto; 
   max-width: 960px;
-}
+  }
 
-main.wide {
+  main.wide {
   max-width: 960px;
-}
+  }
 
-main.wide .return {
+  main.wide .return {
   max-width: 640px;
   margin: 0 auto;
-}
+  }
 
 
-main h1 { font-weight: bold; text-align: center; margin: 0.5em 0; line-height: 120%; }
+  main h1 { font-weight: bold; text-align: center; margin: 0.5em 0; line-height: 120%; }
 
-h3 { border-top: 3px dotted #ddd; padding: 1em 0 0.5em; margin-top: 1em; }
-h4 { font-size: 120%; }
-th { text-align: left; }
-hr { border: 0; border-top: 2px dotted #666; margin: 1em 0; }
-.img-responsive {display:block;max-width:100%;height:auto}
+  h3 { border-top: 3px dotted #ddd; padding: 1em 0 0.5em; margin-top: 1em; }
+  h4 { font-size: 120%; }
+  th { text-align: left; }
+  hr { border: 0; border-top: 2px dotted #666; margin: 1em 0; }
+  .img-responsive {display:block;max-width:100%;height:auto}
 
-/* Footer */
+  /* Footer */
 
-footer {
+  footer {
   text-align: center;
   border-top: 5px dotted #4682B4;
   padding: 2em 0;
-}
+  }
 
-.assist { display: none; }
+  .assist { display: none; }
 
 
-/* Legacy styles */
+  /* Legacy styles */
 
-.right, .pull-right { float: right; padding-left: 20px; padding-bottom: 20px; }
-.left, .pull-left { float: left; padding-right: 20px; padding-bottom: 20px; }
-.small { font-size: 80%; line-height: 120%; }
-.muted { color: #666; }
-.minor { color: #666; font-size: 80%; }
+  .right, .pull-right { float: right; padding-left: 20px; padding-bottom: 20px; }
+  .left, .pull-left { float: left; padding-right: 20px; padding-bottom: 20px; }
+  .small { font-size: 80%; line-height: 120%; }
+  .muted { color: #666; }
+  .minor { color: #666; font-size: 80%; }
     
-.well {
+  .well {
     padding: 1em;
     background-color: #f5f5f5;
     border: 2px solid #e3e3e3;
     border-radius: 4px;
     margin: 1em 0;
-}
+  }
 
-.alert {
+  .alert {
     padding: 1em;
     margin-bottom: 1em;
     border: 2px solid transparent;
     border-radius: 4px;
-}
+  }
 
-.alert.alert-danger {
+  .alert.alert-danger {
     color: #721c24;
     background-color: #f8d7da;
     border-color: #f5c6cb;
-}
+  }
 
-.alert.alert-warning {
+  .alert.alert-warning {
     color: #856404;
     background-color: #fff3cd;
     border-color: #ffeeba;
-}
- 
+  }
+
     
-/* Newsletter styles to replace */
+  /* Newsletter styles to replace */
     .first-options h3 { border-top: 0px solid #fff; padding: 0; }
     .first-options h3 { text-align: center; color: #fff; background-size: cover; background-position: center center; font-weight: bold; }
     .first-options h3 a { padding: 40px 0; display: block; width: 100%; height: 100%; }
 
     
-/* Footer */
+  /* Footer */
 
     footer { color: #666; font-size: 12px; letter-spacing: 1px; }
 
     
-    /* Home page features grid */
+  /* Home page features grid */
 
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature > a {
+    display: block; 
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding-bottom: 0.5em;
+  }
+
+  .feature img {
+    display: block;
+    background-color: #ccc; 
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .feature img:hover { opacity: 0.5; }
+
+  @media (max-width: 768px) {
     .features {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 40px;
+      grid-template-columns: 1fr;
     }
-
-    .feature {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .feature > a {
-      display: block; 
-      width: 100%;
-      aspect-ratio: 2/1;
-      padding-bottom: 0.5em;
-    }
-
-    .feature img {
-      display: block;
-      background-color: #ccc; 
-      width: 100%;
-      aspect-ratio: 2/1;
-      object-fit: cover;
-      object-position: 50% 50%;
-      background-size: cover;
-      background-position: 50% 50%;
-    }
-
-    .feature img:hover { opacity: 0.5; }
-
-    @media (max-width: 768px) {
-      .features {
-        grid-template-columns: 1fr;
-      }
-    }
-          
-    td { vertical-align: center; padding: 0 0.75em 0.75em 0; }
-    td a img { display: block; }
+  }
+        
+  td { vertical-align: center; padding: 0 0.75em 0.75em 0; }
+  td a img { display: block; }
 
     </style>
          
